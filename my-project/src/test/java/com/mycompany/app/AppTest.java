@@ -10,8 +10,7 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    private static final boolean False = false;
-	/**
+    /**
      * Rigorous Test :-)
      */
     @Test
@@ -21,9 +20,9 @@ public class AppTest
         System.out.println("Should Answer With True");
     }
     @Test
-    public void shouldAnswerWithfalse()
+    public void shouldAnswerWithFalse()
     {
         assertFalse( false );
-        System.out.println("Should Answer With False");
+        System.out.println("Should Answer With false");
     }
 }
